@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Portfólio de Juninho Alves, desenvolvedor Front-End especializado na criação de sites modernos, responsivos e acessíveis."
+    />
+
+    <meta name="author" content="Juninho Alves" />
+
+    <title>Juninho Alves | Desenvolvedor Front-End</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header class="header" id="header">
+      <div class="container header-container">
+        <a href="#inicio" class="header-logo" aria-label="Ir para o início">
+          <span class="header-logo-symbol">JA</span>
+
+          <span class="header-logo-name"> Juninho Alves </span>
+        </a>
+
+        <nav
+          class="header-nav"
+          id="header-nav"
+          aria-label="Navegação principal"
+        >
+          <ul class="header-list">
+            <li>
+              <a class="header-link active" href="#inicio"> Início </a>
+            </li>
+
+            <li>
+              <a class="header-link" href="#sobre"> Sobre </a>
+            </li>
+
+            <li>
+              <a class="header-link" href="#projetos"> Projetos </a>
+            </li>
+
+            <li>
+              <a class="header-link" href="#habilidades"> Habilidades </a>
+            </li>
+
+            <li>
+              <a class="header-link" href="#experiencia"> Experiência </a>
+            </li>
+
+            <li>
+              <a class="header-link" href="#contato"> Contato </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            class="theme-toggle"
+            id="theme-toggle"
+            type="button"
+            aria-label="Alterar para tema claro"
+            aria-pressed="false"
+          >
+            <span class="theme-toggle-slider">
+              <span class="theme-toggle-icon theme-toggle-icon-moon">
+                <i class="fa-solid fa-moon"></i>
+              </span>
+
+              <span class="theme-toggle-icon theme-toggle-icon-sun">
+                <i class="fa-solid fa-sun"></i>
+              </span>
+            </span>
+          </button>
+
+          <a href="#contato" class="button button-primary header-contact">
+            Contato
+          </a>
+
+          <button
+            class="menu-toggle"
+            id="menu-toggle"
+            type="button"
+            aria-label="Abrir menu"
+            aria-expanded="false"
+            aria-controls="header-nav"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-background" aria-hidden="true">
+          <span class="hero-glow hero-glow-one"></span>
+          <span class="hero-glow hero-glow-two"></span>
+
+          <div class="hero-grid-pattern"></div>
+        </div>
+
+        <div class="container hero-container">
+          <div class="hero-content">
+            <span class="hero-eyebrow">
+              <span class="hero-eyebrow-dot"></span>
+              Disponível para novos projetos
+            </span>
+
+            <p class="hero-introduction">Olá, eu sou</p>
+
+            <h1 class="hero-title">
+              Juninho
+              <span>Alves</span>
+            </h1>
+
+            <h2 class="hero-profession">
+              Desenvolvedor
+              <span>Front-End</span>
+            </h2>
+
+            <p class="hero-description">
+              Transformo ideias em experiências digitais modernas, responsivas e
+              acessíveis, criando sites que unem design, performance e uma
+              navegação intuitiva.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projetos" class="button button-primary hero-button">
+                Ver projetos
+
+                <i
+                  class="fa-solid fa-arrow-up-right-from-square"
+                  aria-hidden="true"
+                ></i>
+              </a>
+
+              <a href="#contato" class="button button-secondary hero-button">
+                Entrar em contato
+
+                <i class="fa-regular fa-user" aria-hidden="true"></i>
+              </a>
+            </div>
+
+            <div class="hero-social">
+              <span class="hero-social-label"> Conecte-se comigo </span>
+
+              <div class="hero-social-links">
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Acessar meu LinkedIn"
+                >
+                  <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Acessar meu GitHub"
+                >
+                  <i class="fa-brands fa-github" aria-hidden="true"></i>
+                </a>
+
+                <a
+                  href="mailto:seuemail@email.com"
+                  aria-label="Enviar um e-mail"
+                >
+                  <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-image-wrapper" id="hero-image-wrapper">
+              <div class="hero-image-decoration" aria-hidden="true">
+                <span class="hero-circle"></span>
+                <span class="hero-ring hero-ring-one"></span>
+                <span class="hero-ring hero-ring-two"></span>
+              </div>
+
+              <div class="hero-particles" aria-hidden="true">
+                <span class="hero-particle hero-particle-one"></span>
+                <span class="hero-particle hero-particle-two"></span>
+                <span class="hero-particle hero-particle-three"></span>
+                <span class="hero-particle hero-particle-four"></span>
+                <span class="hero-particle hero-particle-five"></span>
+              </div>
+
+              <img
+                src="./img/hero-removebg-preview.png"
+                alt="Juninho Alves, desenvolvedor Front-End"
+                class="hero-image"
+              />
+
+              <div class="hero-floating-card hero-floating-card-projects">
+                <span class="hero-floating-icon">
+                  <i class="fa-solid fa-code" aria-hidden="true"></i>
+                </span>
+
+                <div>
+                  <strong>10+</strong>
+                  <span>Projetos desenvolvidos</span>
+                </div>
+              </div>
+
+              <div class="hero-floating-card hero-floating-card-clients">
+                <span class="hero-floating-icon">
+                  <i class="fa-solid fa-briefcase" aria-hidden="true"></i>
+                </span>
+
+                <div>
+                  <strong>2+</strong>
+                  <span>Projetos reais</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a
+          href="#sobre"
+          class="hero-scroll"
+          aria-label="Rolar para a próxima seção"
+        >
+          <span>Explore</span>
+
+          <span class="hero-scroll-mouse">
+            <span></span>
+          </span>
+        </a>
+      </section>
+
+      <section class="metrics" aria-label="Resumo profissional">
+        <div class="container">
+          <div class="metrics-wrapper">
+            <article class="metric-card">
+              <div class="metric-icon" aria-hidden="true">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+
+              <div class="metric-content">
+                <strong class="metric-number">
+                  <span class="metric-counter" data-target="2" data-suffix="+">
+                    0
+                  </span>
+                </strong>
+
+                <span class="metric-label"> Projetos reais publicados </span>
+              </div>
+            </article>
+
+            <article class="metric-card">
+              <div class="metric-icon" aria-hidden="true">
+                <i class="fa-solid fa-code"></i>
+              </div>
+
+              <div class="metric-content">
+                <strong class="metric-number">
+                  <span class="metric-counter" data-target="15" data-suffix="+">
+                    0
+                  </span>
+                </strong>
+
+                <span class="metric-label"> Projetos desenvolvidos </span>
+              </div>
+            </article>
+
+            <article class="metric-card">
+              <div class="metric-icon" aria-hidden="true">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+              </div>
+
+              <div class="metric-content">
+                <strong class="metric-number">
+                  <span
+                    class="metric-counter"
+                    data-target="100"
+                    data-suffix="%"
+                  >
+                    0
+                  </span>
+                </strong>
+
+                <span class="metric-label"> Sites responsivos </span>
+              </div>
+            </article>
+
+            <article class="metric-card">
+              <div class="metric-icon" aria-hidden="true">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+
+              <div class="metric-content">
+                <strong class="metric-number metric-number-text"> 2024 </strong>
+
+                <span class="metric-label"> Engenharia da Computação </span>
+              </div>
+            </article>
+
+            <article class="metric-card">
+              <div class="metric-icon" aria-hidden="true">
+                <i class="fa-solid fa-bullseye"></i>
+              </div>
+
+              <div class="metric-content">
+                <strong class="metric-number metric-number-text">
+                  Disponível
+                </strong>
+
+                <span class="metric-label"> Freelas e oportunidades </span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="temporary-section" id="sobre">
+        <div class="container">
+          <h2>Sobre</h2>
+        </div>
+      </section>
+
+      <section class="temporary-section" id="projetos">
+        <div class="container">
+          <h2>Projetos</h2>
+        </div>
+      </section>
+
+      <section class="temporary-section" id="habilidades">
+        <div class="container">
+          <h2>Habilidades</h2>
+        </div>
+      </section>
+
+      <section class="temporary-section" id="experiencia">
+        <div class="container">
+          <h2>Experiência</h2>
+        </div>
+      </section>
+
+      <section class="temporary-section" id="contato">
+        <div class="container">
+          <h2>Contato</h2>
+        </div>
+      </section>
+    </main>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
