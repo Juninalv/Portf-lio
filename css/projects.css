@@ -388,6 +388,19 @@
   font-size: 1rem;
 }
 
+.project-badge-development {
+  border-color: rgba(74, 163, 255, 0.35);
+  background: rgba(74, 163, 255, 0.08);
+  color: #74b8ff;
+}
+
+.button-disabled {
+  cursor: default;
+  pointer-events: none;
+
+  opacity: 0.75;
+}
+
 /* ==========================================================
    RESPONSIVIDADE
 ========================================================== */
